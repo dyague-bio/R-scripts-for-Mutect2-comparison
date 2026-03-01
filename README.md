@@ -4,11 +4,8 @@ This repository contains R scripts developed for my Mutect2 project to compare t
 1. *mutation_spectrum_Mutect2.R*
 This script contains a function to generate grouped bar plots showing the distribution of specific mutation types. Produces a 4-mode comparison plot with percentage labels, utilizing ggplot2.
 The plot_mutation_spectrum_4modes function requires headerless .tsv (Tab-Separated Values) files. Each file should contain the summarized counts of mutations for a single pipeline mode or branch.
-
 Format Requirements: headerless .tsv files.
-
 Column 1: Mutation type string (e.g., C>A, T>G, A>C).
-
 Column 2: Integer count of occurrences.
 
 2. *venn_diagram_Mutect2.R*
