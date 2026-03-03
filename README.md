@@ -1,5 +1,5 @@
 # WGS vs. WGBS Mutation Analysis Pipeline
-This repository contains R scripts developed for my Mutect2 project to compare the performance of variant calling pipelines in Whole Genome Sequencing (WGS) and Whole Genome Bisulfite Sequencing (WGBS) plant data.
+This repository contains R scripts developed for the visualization of the Mutect2-variant-calling-WGBS project, to compare the performance of variant calling pipelines in Whole Genome Sequencing (WGS) and Whole Genome Bisulfite Sequencing (WGBS) plant data.
 
 1. *mutation_spectrum_Mutect2.R*
 This script contains a function to generate grouped bar plots showing the distribution of specific mutation types. Produces a 4-mode comparison plot with percentage labels, utilizing ggplot2.
